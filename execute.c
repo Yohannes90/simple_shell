@@ -19,7 +19,7 @@ int (*get_function(char *s))(char **args)
 	};
 	int i = 0;
 
-	while (list[i].builtin_str != NULL && strcmp(s, list[i].builtin_str) != 0)
+	while (list[i].builtin_str != NULL && _strcmp(s, list[i].builtin_str) != 0)
 	{
 		i++;
 	}

@@ -31,6 +31,8 @@
         $
 
 # File and function content included in this project
+    ========== _atoi.c ==========
+    _atoi
     ========== builtins1.c ==========
     sh_env
     sh_cd
@@ -52,6 +54,8 @@
     read_stream
     ========== shell.h ==========
     struct builtin
+    ========== _strcmp.c ==========
+    _strcmp
     ========== split_line.c ==========
     split_line
 

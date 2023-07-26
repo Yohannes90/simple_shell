@@ -97,7 +97,7 @@ int sh_exit(char **args)
 	}
 	else
 	{
-		status = atoi(args[1]);
+		status = _atoi(args[1]);
 		exit(status);
 	}
 }

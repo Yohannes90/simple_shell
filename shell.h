@@ -11,6 +11,8 @@
 #define BUFSIZE 1024
 extern char **environ;
 
+int _atoi(char *s);
+int _strcmp(char *s1, char *s2);
 
 char *read_line(void);
 char **split_line(char *line);
