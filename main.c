@@ -24,8 +24,6 @@ int main(void)
 		args = split_line(line);/*Split line into arguments*/
 		status = execute(args);/*Execute the command with arguments*/
 
-		printf("\n status: %d\n", status);
-
 		free(line);/* Free the memory allocated for line*/
 		free(args);/* Free the memory allocated for args*/
 	} while (status < 1);
