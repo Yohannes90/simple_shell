@@ -8,7 +8,7 @@
 
 # Team members
     - Yohannes Mekonnen
-    - Marwane Madini
+    - Marwane Madani
 # Testing
     - this shell works in interactive mode:
         $ ./hsh
@@ -44,10 +44,9 @@
     ========== execute.c ==========
     get_function
     execute
+    new_process
     ========== main.c ==========
     main
-    ========== new_process.c ==========
-    new_process
     ========== read_line.c ==========
     read_line
     ========== read_stream.c ==========
