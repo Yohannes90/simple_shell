@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _strcmp - compares two strings
+ * _strcmp - compares two strings if they are the same
  * @s1: pointer to first string to be compared
  * @s2: pointer to second string to be compared
  *
