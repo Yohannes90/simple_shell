@@ -89,15 +89,21 @@ int sh_help(__attribute__((unused))char **args)
  */
 int sh_exit(char **args)
 {
-	int status;
+	int status, i = 0;
 
 	if (args[1] == NULL)
 	{
+		while (args[i])
+			free(args[i++]);
+		free(args);
 		exit(0);
 	}
 	else
 	{
 		status = _atoi(args[1]);
+		while (args[++i])
+			free(args[i - 1]);
+		free(args);
 		exit(status);
 	}
 }

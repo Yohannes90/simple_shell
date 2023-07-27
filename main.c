@@ -22,6 +22,7 @@ int main(void)
 			line = read_stream();/*Read input stream*/
 		}
 		args = split_line(line);/*Split line into arguments*/
+
 		status = execute(args);/*Execute the command with arguments*/
 
 		free(line);/* Free the memory allocated for line*/
